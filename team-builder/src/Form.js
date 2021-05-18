@@ -1,18 +1,5 @@
 import React, { useState } from 'react'
 
-const initialFormValues = {
-    fName: '',
-    lName: '',
-    email:'',
-    role:'',
-}
-const team = [
-    {fName: 'Ricky', lName: 'Pena', email:'ricky@ricky.com',role:'Backend Engineer'},
-    {fName: 'Mike', lName: 'Simmons', email:'mike@mike.com',role:'Frontend Engineer'},
-
-]
-
-
 
 export default function Form (props){
     const {values,update,submit} = props
